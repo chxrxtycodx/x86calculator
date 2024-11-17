@@ -15,7 +15,10 @@ int main() {
     int quot = num1 / num2;
     int rem = num1 % num2;
     int ave = floor((num1 + num2)/2);
-    
+
+    //manually
+    quot = num1 / num2;
+    rem = num1 - (quot * num2);
     
     if (operation == 1){
         printf("%d / %d is %d \n", num1, num2, quot);
